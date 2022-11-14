@@ -1,3 +1,4 @@
+import os
 from you_get import (  # 需安装you-get这个轮子
     common
 )
@@ -7,5 +8,6 @@ print("欢迎使用视频下载器")
 print("报告BUG：https://github.com/jiabingxian/download-bilibili/issues")
 url = str(input("视频URL:"))
 print(d)
+os.system(mkdir .\\vldeo)
 common.any_download_playlist(url, output_dir=".\\video", merge=True, playlists=True)
 print(p)
